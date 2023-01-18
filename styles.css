@@ -48,9 +48,9 @@ body{
 }
 
 .container .drop .signup h2{
-    font-size: 2.3em;
+    font-size: 2.4em;
     position: relative;
-    color: rgb(119, 119, 116);
+    color: rgb(13, 132, 143);
 }
 
 .container .drop .signup form{
@@ -101,59 +101,12 @@ body{
     transform: scale(1.1);
 }
 
-/*
-.btns{
-    position: absolute;
-    right: -150px;
-    bottom: -60px;
-    height: 140px;
-    width: 140px;
-    background: rgb(161, 240, 228);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(5, 77, 71);
-    letter-spacing: 0.1em;
-    font-size: 1.1em;
-    transition: 0.25s;
-    box-shadow: 25px 35px 20px  rgba(42, 183, 185, 0.05),
-     25px 30px 30px rgba(50, 165, 178, 0.5),
-    inset 20px 20px 20px  rgba(167, 73, 73, 0.06), 
-    inset -20px -20px 25px rgba(248, 246, 247, 0.9) ;
-    border-radius: 34% 66% 65% 35% / 57% 58% 42% 43%;
-
-}
-
-.btns:hover{
-    border-radius: 49% 51% 52% 48% / 63% 59% 41% 37%;
-}
-
-.btns.signup{
-    width: 120px;
-    height: 120px;
-    bottom: 160px;
-    right: -180px;
-    border-radius: 49% 51% 52% 48% / 63% 59% 41% 37%;
-    background: rgb(247, 133, 190);
-    box-shadow: 25px 35px 20px  rgba(0, 0, 0, 0.05),
-     25px 30px 30px rgba(238, 136, 211, 0.5),
-    inset 20px 20px 20px  rgba(234, 177, 219, 0.06), 
-    inset -20px -20px 25px rgba(251, 250, 251, 0.9) ;
-}
-
-.btns.signup:hover{
-    border-radius: 34% 66% 65% 35% / 57% 58% 42% 43%;
-}
-*/
-
 .last{
     position: relative;
     display: flex;
-    width: 100%;
+    width: 60%;
     height: 20px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -161,7 +114,11 @@ body{
 .last a{
     text-decoration: none;
     font-size: 0.8em;
-    color: rgb(69, 99, 105);
-    font-weight: 600;
-   
+    color: rgb(6, 142, 165);
+    font-weight: 600;   
+}
+
+.last h6{
+    font-size: 0.75em;
+    color: rgb(87, 85, 85);
 }
