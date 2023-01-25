@@ -1,4 +1,4 @@
-# Sign up Page Using HTML AND CSS
+# Sign up Page Using HTML and CSS
 
 This repository contains the source code of making Sign up Page using HTML and CSS.
 <br>
